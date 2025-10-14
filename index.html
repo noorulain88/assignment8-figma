@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -41,10 +42,6 @@
             <a class="nav-link" href="#">projects</a>
           </li>
         </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
       </div>
     </nav>
     <!-- nav  -->
@@ -63,7 +60,9 @@
         Why Ghost (& Figma) instead of Medium, WordPress or other options?
       </div>
     </div>
-    <img src="assest/Zimage.png" class="img-fluid" alt="Responsive image" />
+    <div>
+      <img src="assest/Zimage.png" class="img-fluid" alt="Responsive image" />
+    </div>
     <hr />
     <br />
     <br />
@@ -103,7 +102,7 @@
       </p>
     </div>
     <!-- order list -->
-    <ul>
+    <!-- <div>   <ul>
       <div class="mx-5"></div>
       <li>First item in the list</li>
       <li>
@@ -115,52 +114,73 @@
     <p>
       Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
       inceptos himenaeos. Aliquam quis posuere ligula.
+    </p></div> -->
+
+    <p>
+      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+      inceptos himenaeos. Aliquam quis posuere ligula.
     </p>
     <h1>Thanks for Reading</h1>
     <!-- button  -->
+    <div class="border border-black">
+      <button type="button" class="btn btn-outline-dark mt-5 mx-5 my-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-facebook"
+          viewBox="0 0 16 16"
+        >
+          <!-- facebook icon -->
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+          />
+        </svg>
+        <span> Share on Facebook</span>
+      </button>
+      <button type="button" class="btn btn-outline-dark mt-5 mx-5 my-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-twitter"
+          viewBox="0 0 16 16"
+        >
+          <!-- twitter icon -->
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+          />
+        </svg>
+        <span>share on twitter</span>
+      </button>
+    </div>
 
-    <button type="button" class="btn btn-outline-dark mt-5 mx-5 my-5" disabled>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-facebook"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
-        />
-      </svg>
-      Share on Facebook
-    </button>
-    <button type="button" class="btn btn-outline-dark mt-5 mx-5 my-5" disabled>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-twitter"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
-        />
-      </svg>
-      <span>share on twitter</span>
-    </button>
-    <br />
     <!-- eye -->
     <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-wink-fill mt-5 mx-5 my-5" viewBox="0 0 16 16">
   <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M7 6.5C7 5.672 6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8s1-.672 1-1.5M4.285 9.567a.5.5 0 0 0-.183.683A4.5 4.5 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.5 3.5 0 0 1 8 11.5a3.5 3.5 0 0 1-3.032-1.75.5.5 0 0 0-.683-.183m5.152-3.31a.5.5 0 0 0-.874.486c.33.595.958 1.007 1.687 1.007s1.356-.412 1.687-1.007a.5.5 0 0 0-.874-.486.93.93 0 0 1-.813.493.93.93 0 0 1-.813-.493"/>
 </svg> -->
+    <!-- 
+    <div class=" demo1" >
+      <img src="assest/eye.png" alt="eye" class="demo" />
+ 
+    </div> -->
 
-    <img src="assest/eye.png" alt="eye" class="display-flex" />
-    <br />
+    <div class="position-relative my-5">
+      <img
+        src="assest/eye.png"
+        alt=""
+        class="position-absolute top-50 start-50"
+        style="transform: translate(-50%, -50%)"
+      />
+      <hr />
+    </div>
+
     <!-- row 1 -->
     <div class="row">
       <!-- col 1 -->
-      <div class="col">
+      <div class="col col-sm-12 col-md-3 mx-5 my-5">
         <div class="card" style="width: 18rem">
           <img src="assest/ass8img(5).png" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -171,7 +191,7 @@
         </div>
       </div>
       <!-- col 2 -->
-      <div class="col">
+      <div class="col col-sm-12 col-md-3 mx-5 my-5">
         <div class="card" style="width: 18rem">
           <img src="assest/ass8img(6).png" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -182,7 +202,7 @@
         </div>
       </div>
       <!-- col 3 -->
-      <div class="col">
+      <div class="col col-sm-12 col-md-3 mx-5 my-5">
         <div class="card" style="width: 18rem">
           <img src="assest/ass8img(7).png" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -196,7 +216,7 @@
     <!-- row 2 -->
     <div class="row">
       <!-- col 1 -->
-      <div class="col">
+      <div class="col col-sm-12 col-md-3 mx-5 my-5">
         <div class="card" style="width: 18rem">
           <img src="assest/ass8img(8).png" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -207,7 +227,7 @@
         </div>
       </div>
       <!-- col 2 -->
-      <div class="col">
+      <div class="col col-sm-12 col-md-3 mx-5 my-5">
         <div class="card" style="width: 18rem">
           <img src="assest/ass8img(9).png" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -218,7 +238,7 @@
         </div>
       </div>
       <!-- col 3 -->
-      <div class="col">
+      <div class="col col-sm-12 col-md-3 mx-5 my-5">
         <div class="card" style="width: 18rem">
           <img src="assest/ass8img(10).png" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -229,9 +249,9 @@
         </div>
       </div>
     </div>
-    <hr />
     <!-- form -->
-    <div class="input-group mb-3">
+    <!-- <div class="mx-5 my-5">
+    <div class="input-group mb-3 mt-5 mx-5 my-5 ">
       <span class="input-group-text" id="basic-addon1">@</span>
       <input
         type="text"
@@ -242,67 +262,45 @@
       />
     </div>
 
-    <!-- <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Recipient’s username"
-        aria-label="Recipient’s username"
-        aria-describedby="basic-addon2"
-      />
-      <span class="input-group-text" id="basic-addon2">@example.com</span>
-    </div> -->
-<!-- 
-    <div class="mb-3">
-      <label for="basic-url" class="form-label">Your vanity URL</label>
-      <div class="input-group">
-        <span class="input-group-text" id="basic-addon3"
-          >https://example.com/users/</span
-        >
-        <input
-          type="text"
-          class="form-control"
-          id="basic-url"
-          aria-describedby="basic-addon3 basic-addon4"
-        />
-      </div>
-      <div class="form-text" id="basic-addon4">
-        Example help text goes outside the input group.
-      </div>
-    </div> -->
-    <!-- 
-    <div class="input-group mb-3">
-      <span class="input-group-text">$</span>
-      <input
-        type="text"
-        class="form-control"
-        aria-label="Amount (to the nearest dollar)"
-      />
-    </div> -->
-
-    <!-- <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Username"
-        aria-label="Username"
-      />
-      <span class="input-group-text">@</span>
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Server"
-        aria-label="Server"
-      />
-    </div> -->
+ 
 
     <div class="input-group">
       <span class="input-group-text">With textarea</span>
       <textarea class="form-control" aria-label="With textarea"></textarea>
     </div>
+    </div> -->
+    <div class="row mx-5 my-5 mt-5 "  
 
 
-    
+
+>
+      <div class="col">
+        <div
+          class="border border-dark  border-5 mx-5 my-2 p-5 justify-content-center"
+        >
+          <form action="text" style="text-align: center">
+            <b>Sign up for the news letters</b>
+            <p>If you want relevant updates occasionally, sign up for the private newsletter. Your email is never shared. </p>
+            <div> 
+              <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input
+                type="email"
+                class="form-control"
+                name=""
+                id=""
+                aria-describedby="emailHelpId"
+                placeholder="Enter Your Email"
+                
+              />
+            
+            </div>
+            </div>
+         
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
